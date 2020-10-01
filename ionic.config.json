@@ -1,0 +1,7 @@
+{
+  "name": "chef",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
