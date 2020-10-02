@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <img src="/assets/icon/icon.png" alt="logo empresa" class="image_title">
+      <div class="Title">
+        Pocket Chef
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item button routerLink="/recipe/{{recipe}}" routerDirection="forward" *ngFor="let recipe of recipes">
+    <ion-thumbnail slot="start">
+      <img src="/assets/chile.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h3>Chile en Nogada</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing...
+      </p>
+    </ion-label>
+  </ion-item>
+</ion-content>
